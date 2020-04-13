@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Check that main elements on onlinegrocery Homepage are displayed",
+        "description": "",
+        "id": "search-product;check-that-main-elements-on-onlinegrocery-homepage-are-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6039785100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch Chrome browser",
+            "match": {
+              "location": "stepdef_googlehomepage.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24902658000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open onlinegrocery  Homepage",
+            "match": {
+              "location": "stepdef_googlehomepage.open_google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118221600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify that the page displays search text box",
+            "match": {
+              "location": "stepdef_googlehomepage.i_verify_that_the_page_displays_search_text_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139952100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter search keyword",
+            "match": {
+              "location": "stepdef_googlehomepage.i_enter_search_keyword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18241800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify search results are loaded",
+            "match": {
+              "location": "stepdef_googlehomepage.i_verify_search_results_are_loaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111383300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on add to cart button",
+            "match": {
+              "location": "stepdef_googlehomepage.I_click_on_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310222200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that Product added to cart",
+            "match": {
+              "location": "stepdef_googlehomepage.I_verify_that_Product_added_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search product",
+    "description": "This feature verifies the functionality on Search Product on onlinegrocery Website",
+    "id": "search-product",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/search_addtocart.feature",
+    "tags": []
+  }
+]
